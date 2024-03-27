@@ -51,7 +51,7 @@ window.addEventListener("keydown", function(event) {
     }
 });
 
-// Função para reproduzir som
+
 function playSound(soundFilePath) {
     var audio = new Audio(soundFilePath);
     audio.play();
